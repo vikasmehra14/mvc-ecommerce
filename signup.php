@@ -21,7 +21,7 @@
             <i class="material-icons prefix white-text"> password</i>
             <input name="pwd" id="pwd" type="password" class="validate white-text" minlength="8" maxlength="20">
             <label for="pwd" class="white-text"> Password</label>
-            <span class="helper-text grey-text left-align" data-error="Min 8, Max 20 characters" data-success="Min 8, Max 20 characters">Min 8, Max 20 characters</span>
+            <span class="helper-text grey-text left-align" data-error="Min 8, Max 20 characters, at least one special character and one digit" data-success="Min 8, Max 20 characters, at least one special character and one digit">Min 8, Max 20 characters, at least one special character and one digit</span>
           </div>
         </div>
         <div class="row">
@@ -55,6 +55,9 @@
 
               else if ($_GET["error"] == "username_taken")
                 echo "<p>*Username/Email already taken!</p>";
+
+              else if ($_GET["error"] == "password_invalid")
+                echo "<p>*Password must contain at least one special character and one digit!</p>";
                 
               else if ($_GET["error"] == "none")
                 echo "<p class='green-text bold'>You have signed up! Please go to Login page</p>";

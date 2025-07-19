@@ -59,6 +59,17 @@ class SignupContr extends Signup {
     return $result;
   }
 
+  private function pwdInvalid() {
+    $result = null;
+    if (!preg_match("/[a-zA-Z0-9]*$/", $this->pwd) || !preg_match("/\d/", $this->pwd)) {
+      $result = false;
+    }
+    else{
+      $result = true;
+    }
+    return $result;
+  }
+
   public function createUser() {
     if($this->emptyInput() == false) {
       header("location: ../signup.php?error=empty_input");
@@ -77,6 +88,11 @@ class SignupContr extends Signup {
 
     if($this->uidExists() == false) {
       header("location: ../signup.php?error=username_taken");
+      exit();
+    }
+
+    if($this->pwdInvalid() == false) {
+      header("location: ../signup.php?error=password_invalid");
       exit();
     }
 
