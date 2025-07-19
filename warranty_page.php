@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Warranty Info - OG Tech PC</title>
+<title>Warranty Info - Computer Store Vault</title>
 <?php include "header.php";?>
 
 <style>
@@ -49,9 +49,9 @@
 		<br><li class="text">Pack the hardware in its original box, bubble wrap it and place it in another box, for full rig PC please put it back with the original box with its styrofoam, 
 			do remove your GPU if its too heavy; Then we will send GD Express to pickup the parcel 
 			( We DO NOT cover any physical damages caused from shipping; As such, the customer will take sole responsibility for any physical damage from bad packaging ).</li>
-		<br><li class="text">Shipping and service charges may be applicable IF hardware tested non faulty and / or caused by hardware not purchased from OG Tech PC, 
-			the final decision lies with the staffs of OG Tech PC.</li>
-		<br><li class="text">Please take note that The FREE PICKUP AND RETURN SERVICES covers all the products purchased from OG Tech PC and is still under warranty only.</li>
+		<br><li class="text">Shipping and service charges may be applicable IF hardware tested non faulty and / or caused by hardware not purchased from Computer Store Vault,
+			the final decision lies with the staffs of Computer Store Vault.</li>
+		<br><li class="text">Please take note that The FREE PICKUP AND RETURN SERVICES covers all the products purchased from Computer Store Vault and is still under warranty only.</li>
 		<br><li class="text">By submitting the FORM, you are hereby acknowledging and agreeing with the Terms and Condition above. </li>
 	</ul>
 	

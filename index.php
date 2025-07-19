@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OG Tech PC - Landing Page</title>
+  <title>Computer Store Vault - Landing Page</title>
   <?php 
     require "header.php"; 
     require_once "includes/class_autoloader.php";
@@ -88,7 +88,7 @@
     <div class="wide-container">
       <h3 class="white-text center">BUILT BY ENTHUSIASTS FOR ENTHUSIASTS</h3>
       <h5 class="white-text center">
-        At <b class="orange-text">OG Tech PC</b>, We are a team of serious gamers and overclockers with a passion towards customized and fast PCs.
+        At <b class="orange-text">Computer Store Vault</b>, We are a team of serious gamers and overclockers with a passion towards customized and fast PCs.
       </h5>
     </div>
   </div>
@@ -112,7 +112,7 @@
     </div>
   </div>
 
-  <h3 class="white-text center">OG Tech PC - White PC Build</h3>
+  <h3 class="white-text center">Computer Store Vault - White PC Build</h3>
   <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" style="margin-bottom: 100px">
     <img src="static/images/ice_pc.png" style="cursor:pointer; display:block; margin: 0 auto; " />
   </div>
@@ -220,6 +220,10 @@
         easing: 'swing',
         step: function (now) { $(this).text(Math.ceil(now)); }
       });
+    });
+
+    $('.tint-glass-black').click(function() {
+      alert("hello world");
     });
   });
 </script>

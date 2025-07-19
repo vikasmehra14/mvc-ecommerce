@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>OG Tech PC - Login</title>
+<title>Computer Store Vault - Login</title>
 <?php include "header.php"; ?>
 
 <form method="POST" action="includes/login.inc.php">

@@ -21,7 +21,7 @@
       $name = $item->getName(); 
     }
   ?>
-  <title>OG Tech PC — <?php echo htmlspecialchars($name) ?></title>
+  <title>Computer Store Vault — <?php echo htmlspecialchars($name) ?></title>
 </head>
 <body>
 
