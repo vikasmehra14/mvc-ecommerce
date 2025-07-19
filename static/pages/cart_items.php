@@ -76,12 +76,12 @@
                   $displayShipping = 25;
                   $displaySVoucher = "";
                 } 
-                if ($displayShipping === 0) $displayShipping = "<span class='underline'>RM$displayShipping</span>";
-                else $displayShipping = "RM$displayShipping";
+                if ($displayShipping === 0) $displayShipping = "<span class='underline'>₹$displayShipping</span>";
+                else $displayShipping = "₹$displayShipping";
 
                 if ($sumTotal >= 2000){
                   $shippingTotal = $sumTotal - 100;
-                  $displayPVoucher = "<span class='underline'>-RM100</span> <span class='yellow-text'>(Promo voucher applied)</span>";
+                  $displayPVoucher = "<span class='underline'>-₹100</span> <span class='yellow-text'>(Promo voucher applied)</span>";
                 }
                 else if ($sumTotal >= 200 && $sumTotal < 2000){ 
                   $shippingTotal = $sumTotal;
@@ -96,7 +96,7 @@
                 echo("<tr><th >Total Items:</th><td >$cartItemCount</td></tr>");
                 echo("<tr><th >Delivery Charges:</th><td >");echo("$displayShipping $displaySVoucher</td></tr>");
                 echo("<tr><th >Promo Voucher:</th><td >$displayPVoucher</td></tr>");
-                echo("<tr><th>Sum Total:</th><td>RM$sumTotal</td></tr>");
+                echo("<tr><th>Sum Total:</th><td>₹$sumTotal</td></tr>");
                 
               ?>
             </tbody>

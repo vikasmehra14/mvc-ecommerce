@@ -34,7 +34,7 @@
       $description = $item->getDescription();
       $quantityInStock = $item->getQuantityInStock();
       $price = $item->getSellingPrice();
-      $displayPrice = "RM" . number_format($price, 2);
+      $displayPrice = "₹" . number_format($price, 2);
       $category = $item->getCategory();
       $category = Item::CATEGORY[$category];
 
