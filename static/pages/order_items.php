@@ -75,12 +75,12 @@
         $displayShipping = 25;
         $displaySVoucher = "";
       } 
-      if ($displayShipping === 0) $displayShipping = "<span class='underline'>RM$displayShipping</span>";
-      else $displayShipping = "RM$displayShipping";
+      if ($displayShipping === 0) $displayShipping = "<span class='underline'>₹$displayShipping</span>";
+      else $displayShipping = "₹$displayShipping";
 
       if ($sumTotal >= 2000){
         $shippingTotal = $sumTotal - 100;
-        $displayPVoucher = "<span class='underline'>-RM100</span> <span class='yellow-text'>(Promo voucher applied)</span>";
+        $displayPVoucher = "<span class='underline'>-₹100</span> <span class='yellow-text'>(Promo voucher applied)</span>";
       }
       else if ($sumTotal >= 200 && $sumTotal < 2000){ 
         $shippingTotal = $sumTotal;

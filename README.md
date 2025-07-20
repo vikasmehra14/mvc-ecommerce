@@ -1,4 +1,4 @@
-# OG Tech PC Solutions
+# Computer Store Vault PC Solutions
 
 E-commerce web app project based on mvc model. Inspired by IdealTechPC. Neon theme.
 

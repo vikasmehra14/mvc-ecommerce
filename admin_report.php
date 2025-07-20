@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>OG Tech - Report</title>
+	<title>Computer Store Vault - Report</title>
 	<?php 
 	include "header.php";
 	include "static/pages/side_nav.html";
@@ -228,7 +228,7 @@
 			}
 		?>
 		
-		<h4 style="color:white">Total sales of last 7 days: RM<?php echo $data_tot = number_format((float)$data_tot, 2, '.', '');?></h4>
+		<h4 style="color:white">Total sales of last 7 days: ₹<?php echo $data_tot = number_format((float)$data_tot, 2, '.', '');?></h4>
 		<h4 style="color:white">Start Date: <?php echo $date7?></h4>
 		<h4 style="color:white">End Date: <?php echo $date1?></h4>
 	</div>
@@ -288,7 +288,7 @@
 				$month_tot =$row['Amount'];
 			}
 		?>
-		<h4 style="color:white">Total sales of last 90 days: RM<?php echo $month_tot = number_format((float)$month_tot, 2, '.', '');?></h4>
+		<h4 style="color:white">Total sales of last 90 days: ₹<?php echo $month_tot = number_format((float)$month_tot, 2, '.', '');?></h4>
 	</div>
 	<br><br><br>
 	<div class="row" id="product" name="product"></div>
